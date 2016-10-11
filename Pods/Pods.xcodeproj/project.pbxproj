@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		207CA36FFC1D2800A9A9FDB72D928E82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		EC13F24373B0E65673AF84400630E791 /* Pods-MapDrawingLine-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B748EC8CEE1AA375285DF9CD6D4AC4F /* Pods-MapDrawingLine-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B748EC8CEE1AA375285DF9CD6D4AC4F /* Pods-MapDrawingLine-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MapDrawingLine-dummy.m"; sourceTree = "<group>"; };
+		149AB73151F1452AB5D203D14359946C /* Pods-MapDrawingLine-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapDrawingLine-resources.sh"; sourceTree = "<group>"; };
+		14DC37A86BC67FFB4EAD3D9FBE34684A /* Pods-MapDrawingLine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapDrawingLine.debug.xcconfig"; sourceTree = "<group>"; };
+		190A7FA90C25616DE0A20A64004B6328 /* BaiduMapAPI_Map.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Map.framework; path = BaiduMapKit/BaiduMapAPI_Map.framework; sourceTree = "<group>"; };
+		21401B7245E5BCED246930E84DB6840C /* Pods-MapDrawingLine-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MapDrawingLine-acknowledgements.markdown"; sourceTree = "<group>"; };
+		261D2485B526B87C9406024BF0736A6B /* BaiduMapAPI_Utils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Utils.framework; path = BaiduMapKit/BaiduMapAPI_Utils.framework; sourceTree = "<group>"; };
+		61F656587BC9AD7AEFB8835206E02120 /* BaiduMapAPI_Base.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Base.framework; path = BaiduMapKit/BaiduMapAPI_Base.framework; sourceTree = "<group>"; };
+		6F8FCFBE61CCFDAF8827CB5F5B6A00F9 /* BaiduMapAPI_Radar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Radar.framework; path = BaiduMapKit/BaiduMapAPI_Radar.framework; sourceTree = "<group>"; };
+		7CDA16D6DA37BE4B2BEBF957ECC23AD0 /* BaiduMapAPI_Location.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Location.framework; path = BaiduMapKit/BaiduMapAPI_Location.framework; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E4627D1C5ECC9193648C90E4E29E25C /* Pods-MapDrawingLine-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MapDrawingLine-acknowledgements.plist"; sourceTree = "<group>"; };
+		ABABF43BEA885365BA896FB465F73845 /* BaiduMapAPI_Search.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Search.framework; path = BaiduMapKit/BaiduMapAPI_Search.framework; sourceTree = "<group>"; };
+		B090C3BFD43721068D82D61E479A416B /* libPods-MapDrawingLine.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MapDrawingLine.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B71BB7A8AA5E3007A0FD075963E61ECC /* mapapi.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = mapapi.bundle; path = BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D9C61F512AA594EC90D64780F594EC12 /* BaiduMapAPI_Cloud.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BaiduMapAPI_Cloud.framework; path = BaiduMapKit/BaiduMapAPI_Cloud.framework; sourceTree = "<group>"; };
+		F4E4A01546B6DB9BFDB62085311133B3 /* Pods-MapDrawingLine-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MapDrawingLine-frameworks.sh"; sourceTree = "<group>"; };
+		F63F5EC681A5E98FA7E90AC4DDA36769 /* Pods-MapDrawingLine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MapDrawingLine.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1BF05F55ABBE261204EF0B925D0ABA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207CA36FFC1D2800A9A9FDB72D928E82 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0724565C3307296AB8329DF30EEFE0FD /* Pods-MapDrawingLine */ = {
+			isa = PBXGroup;
+			children = (
+				21401B7245E5BCED246930E84DB6840C /* Pods-MapDrawingLine-acknowledgements.markdown */,
+				9E4627D1C5ECC9193648C90E4E29E25C /* Pods-MapDrawingLine-acknowledgements.plist */,
+				0B748EC8CEE1AA375285DF9CD6D4AC4F /* Pods-MapDrawingLine-dummy.m */,
+				F4E4A01546B6DB9BFDB62085311133B3 /* Pods-MapDrawingLine-frameworks.sh */,
+				149AB73151F1452AB5D203D14359946C /* Pods-MapDrawingLine-resources.sh */,
+				14DC37A86BC67FFB4EAD3D9FBE34684A /* Pods-MapDrawingLine.debug.xcconfig */,
+				F63F5EC681A5E98FA7E90AC4DDA36769 /* Pods-MapDrawingLine.release.xcconfig */,
+			);
+			name = "Pods-MapDrawingLine";
+			path = "Target Support Files/Pods-MapDrawingLine";
+			sourceTree = "<group>";
+		};
+		1B059781C9D89233EDF23FBF8712DB26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B090C3BFD43721068D82D61E479A416B /* libPods-MapDrawingLine.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		56796AAF4F5802B6524EF0DDE24CB231 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B71BB7A8AA5E3007A0FD075963E61ECC /* mapapi.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		77F83023C1B4EBA551726037F84301C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F3FA3F609DED53AEBA8E7CFECEDAB186 /* BaiduMapKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				77F83023C1B4EBA551726037F84301C2 /* Pods */,
+				1B059781C9D89233EDF23FBF8712DB26 /* Products */,
+				AC9C0946F655C8F51DE93845B5363D80 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		AC9C0946F655C8F51DE93845B5363D80 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0724565C3307296AB8329DF30EEFE0FD /* Pods-MapDrawingLine */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C715454BC1A7A1E415D54F199E73007D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				61F656587BC9AD7AEFB8835206E02120 /* BaiduMapAPI_Base.framework */,
+				D9C61F512AA594EC90D64780F594EC12 /* BaiduMapAPI_Cloud.framework */,
+				7CDA16D6DA37BE4B2BEBF957ECC23AD0 /* BaiduMapAPI_Location.framework */,
+				190A7FA90C25616DE0A20A64004B6328 /* BaiduMapAPI_Map.framework */,
+				6F8FCFBE61CCFDAF8827CB5F5B6A00F9 /* BaiduMapAPI_Radar.framework */,
+				ABABF43BEA885365BA896FB465F73845 /* BaiduMapAPI_Search.framework */,
+				261D2485B526B87C9406024BF0736A6B /* BaiduMapAPI_Utils.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3FA3F609DED53AEBA8E7CFECEDAB186 /* BaiduMapKit */ = {
+			isa = PBXGroup;
+			children = (
+				C715454BC1A7A1E415D54F199E73007D /* Frameworks */,
+				56796AAF4F5802B6524EF0DDE24CB231 /* Resources */,
+			);
+			path = BaiduMapKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D2D66436A62CA1DFE76887289F01F8D4 /* Pods-MapDrawingLine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83F9390E3927674088007AFC63254366 /* Build configuration list for PBXNativeTarget "Pods-MapDrawingLine" */;
+			buildPhases = (
+				C9825DA7A043AA087EA7F7E69005EA7F /* Sources */,
+				D1BF05F55ABBE261204EF0B925D0ABA0 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MapDrawingLine";
+			productName = "Pods-MapDrawingLine";
+			productReference = B090C3BFD43721068D82D61E479A416B /* libPods-MapDrawingLine.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1B059781C9D89233EDF23FBF8712DB26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2D66436A62CA1DFE76887289F01F8D4 /* Pods-MapDrawingLine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C9825DA7A043AA087EA7F7E69005EA7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC13F24373B0E65673AF84400630E791 /* Pods-MapDrawingLine-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9935457F0EB8E36ABABDD1CFCB97F7D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14DC37A86BC67FFB4EAD3D9FBE34684A /* Pods-MapDrawingLine.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1DDB0C4D1E550B8ECB409FD94DD9F34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F63F5EC681A5E98FA7E90AC4DDA36769 /* Pods-MapDrawingLine.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83F9390E3927674088007AFC63254366 /* Build configuration list for PBXNativeTarget "Pods-MapDrawingLine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9935457F0EB8E36ABABDD1CFCB97F7D3 /* Debug */,
+				E1DDB0C4D1E550B8ECB409FD94DD9F34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
