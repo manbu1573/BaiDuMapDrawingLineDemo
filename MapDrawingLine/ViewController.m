@@ -47,7 +47,6 @@ typedef struct {
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.view.backgroundColor = [UIColor whiteColor];
     _mapView = [BMKMapView new];
     _mapView.frame = self.view.frame;
     _mapView.delegate = self; // 此处记得不用的时候需要置nil，否则影响内存的释放
@@ -59,24 +58,14 @@ typedef struct {
 {
     //加载的假数据
     for (int i = 0; i < 100; i++) {
-        
         [self.dataArr addObject: @{@"latitude":[NSString stringWithFormat:@"39.9%d",i] ,@"longitude":[NSString stringWithFormat:@"116.4%d",i]}];
         
     }
     [self layoutDry];
 }
-- (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
-{
-    self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
-    if (self) {
-        // Custom initialization
-    }
-    return self;
-}
 
 -(void)layoutDry
 {
-    
     CLLocationCoordinate2D coors[1000] = {0};//coors要设置一个比较大的数
     for (int i = 0;  i < _dataArr.count; i++) {
         coors[i].latitude = [[_dataArr[i] valueForKey:@"latitude"] doubleValue];
@@ -85,6 +74,8 @@ typedef struct {
     BMKPolyline *polyline = [BMKPolyline polylineWithCoordinates:coors count:_dataArr.count];
     [_mapView addOverlay:polyline];
 }
+
+//地图的代理方法
 -(BMKOverlayView *)mapView:(BMKMapView *)mapView viewForOverlay:(id<BMKOverlay>)overlay
 {
     if ([overlay isKindOfClass:[BMKPolyline class]])
