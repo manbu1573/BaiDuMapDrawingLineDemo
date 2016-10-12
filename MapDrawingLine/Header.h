@@ -1,10 +1,4 @@
-//
-//  Header.h
-//  高铁在线
-//
-//  Created by 李荣建 on 15/12/4.
-//  Copyright © 2015年 李荣建. All rights reserved.
-//
+
 
 #ifndef Header_h
 #define Header_h
