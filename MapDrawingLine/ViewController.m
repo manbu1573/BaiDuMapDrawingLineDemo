@@ -40,7 +40,7 @@ typedef struct {
 - (void)viewWillAppear:(BOOL)animated {
     [_mapView viewWillAppear];
     _mapView.delegate = self; // 此处记得不用的时候需要置nil，否则影响内存的释放
-    [_mapView setZoomLevel:12];//设置地图放大比例
+    [_mapView setZoomLevel:8];//设置地图放大比例
     
 }
 
