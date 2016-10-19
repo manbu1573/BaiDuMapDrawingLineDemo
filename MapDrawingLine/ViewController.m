@@ -38,9 +38,13 @@ typedef struct {
     return _dataArr;
 }
 - (void)viewWillAppear:(BOOL)animated {
+    //设置显示地图默认初始位置
+    CLLocationCoordinate2D coords = CLLocationCoordinate2DMake(39.10,116.10);//纬度，经度
+    _mapView.centerCoordinate = coords;
+    
     [_mapView viewWillAppear];
     _mapView.delegate = self; // 此处记得不用的时候需要置nil，否则影响内存的释放
-    [_mapView setZoomLevel:8];//设置地图放大比例
+    [_mapView setZoomLevel:10];//设置地图放大比例
     
 }
 
@@ -58,7 +62,7 @@ typedef struct {
 {
     //加载的假数据
     for (int i = 0; i < 100; i++) {
-        [self.dataArr addObject: @{@"latitude":[NSString stringWithFormat:@"39.9%d",i] ,@"longitude":[NSString stringWithFormat:@"116.4%d",i]}];
+        [self.dataArr addObject: @{@"latitude":[NSString stringWithFormat:@"39.1%d",i] ,@"longitude":[NSString stringWithFormat:@"116.1%d",i]}];
         
     }
     [self layoutDry];
