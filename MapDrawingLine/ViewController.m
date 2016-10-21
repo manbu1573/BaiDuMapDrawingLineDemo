@@ -62,7 +62,7 @@ typedef struct {
 {
     //加载的假数据
     //master
-    
+    //102111
     for (int i = 0; i < 100; i++) {
         [self.dataArr addObject: @{@"latitude":[NSString stringWithFormat:@"39.1%d",i] ,@"longitude":[NSString stringWithFormat:@"116.1%d",i]}];
         
